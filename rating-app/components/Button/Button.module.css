@@ -1,0 +1,30 @@
+.button {
+	display: inline-block;
+	height: 35px;
+	border-radius: 5px;
+	font-weight: 400;
+	font-size: 14px;
+	cursor: pointer;
+	transition: all .1s;
+	padding: 10px;
+}
+
+.primary {
+	color: var(--white);
+	background-color: var(--primary);
+	border: none;	
+}
+
+.primary:hover {	
+	background-color: var(--primary-hover);	
+}
+
+.secondary {
+	color: var(--gray);
+	background-color: var(--white);
+	border: 1px solid var(--light-gray);
+}
+
+.secondary:hover {
+	border-color: #C0C0C0;
+}

@@ -6,6 +6,8 @@ export default function Home() {
       <TitleElement tag={'h1'}>Заголовок</TitleElement>
       <Button appearance={'primary'}>Primary button</Button>
       <Button appearance={'secondary'}>Secondary button</Button>
+      <Button appearance={'secondary'} arrow={'right'}>Secondary button</Button>
+      <Button appearance={'primary'} arrow={'down'}>Primary button</Button>
       <Paragraph size={"s"} >
         Напишу сразу в двух курсах, так как проходил оба. Java будет многим непросвещённым сложновата в изучении, но здесь перевес из-за лидирующего положения языка как самого популярного в программировании. Выбор мой пал на эту профессию еще и потому, что Java-разработчики получают самую большую зарплату. Хотя Python начинает догонять Java по многим моментам, но вот в крупном екоме разработке Джава все-таки остается главенствующей сейчас. Скажу так – полнота программы и интенсивность присуща обоим курсам GeekBrains. Хочу отметить, что с первого дня занятий вы приступаете к практике и получаете опыт коммерческой разработки уже в свое резюме. Скажу вам как прошедший это – реально помогло в трудоустройстве!
       </Paragraph>

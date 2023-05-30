@@ -1,6 +1,7 @@
 import { IButton } from "./Button.props";
 import styles from "./Button.module.css";
 import cn from "classnames";
+import ArrowIcon from './arrow.svg';
 
 export function Button({ appearance, arrow = 'none', children, className, ...props }: IButton): JSX.Element {
 	return <>
@@ -15,7 +16,7 @@ export function Button({ appearance, arrow = 'none', children, className, ...pro
 			})}
 			{...props}
 			>
-				v
+				<ArrowIcon />
 				</span>}
 		</button>
 	</>

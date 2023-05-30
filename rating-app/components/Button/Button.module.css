@@ -15,6 +15,10 @@
 	border: none;	
 }
 
+.primary svg {
+	fill: white;
+}
+
 .primary:hover {	
 	background-color: var(--primary-hover);	
 }
@@ -27,4 +31,14 @@
 
 .secondary:hover {
 	border-color: #C0C0C0;
+}
+
+.arrow {
+	display: inline-block;
+	transition: all .2s;
+	margin-left: 10px;
+}
+
+.down {
+	transform: rotate(90deg);
 }
